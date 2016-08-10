@@ -11,8 +11,9 @@ url = "https://club.pokemon.com/us/pokemon-trainer-club/sign-up/"
 page_timeout = 5
 date_pick_timeout = 1
 
+driver = webdriver.Firefox()
+
 def init():
-    driver = webdriver.Firefox()
     driver.maximize_window()
     driver.get(url);
 

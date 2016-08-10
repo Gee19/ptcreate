@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import ptc
+from lib import ptc
 
 # Pokemon Trainer Club Account Creator
 # By Gee19
